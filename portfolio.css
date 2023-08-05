@@ -1,0 +1,122 @@
+body{
+    font-family: 'PT Serif', serif;
+}
+.pic{
+    background-image: url(https://c0.wallpaperflare.com/preview/806/696/927/sky-star-shooting-star-galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    border: black 1px;
+}
+.nav{
+    color: azure;
+    font-size: x-large;
+}
+.H:hover{
+    color: rgb(235, 121, 15);
+}
+.C:hover{
+    color: rgb(235, 121, 15);
+}
+.S:hover{
+    color: rgb(235, 121, 15);
+}
+.E:hover{
+    color: rgb(235, 121, 15);
+}
+.A:hover{
+    color: rgb(235, 121, 15);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+    width: 550px;
+    justify-content: space-around;
+}
+.intro{
+    color: darkgrey;
+    font-size: 50px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.o{
+    color: darkgrey;
+    margin-left: 205px;
+    font-size: xx-large;
+}
+.btn{
+    width: 100px;
+    height: 26px;
+    border-radius: 20px;
+    background-color:rgb(235, 121, 15);
+    text-align: center;
+    margin-left: 300px;
+    color:#1d0a1f;
+    font-size:larger;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.btn:hover{
+    background-color:darkgrey
+}
+.btn:active{
+    background-color:rgba(224, 182, 103, 0.608);
+    color: #1d0a1f;
+}
+.fa-github{
+    font-size: 50px;
+}
+/* .fa-telegram{
+    font-size: 75px;
+} */
+.fa-square-instagram{
+    font-size: 50px;
+}
+.fa-linkedin{
+    font-size: 50px;
+}
+.fa-envelope{
+    font-size: 50px;
+}
+/* .fa-github:hover{
+    color:rgb(235, 121, 15);
+}
+.fa-square-instagram:hover{
+    color:rgb(235, 121, 15);
+} */
+/* .social{
+    margin-left: 300px;
+    margin-top: 15px;
+} */
+.social{
+    margin-left: 230px;
+    margin-top: 15px;
+}
+.lang{
+    list-style: circle;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+.ab{
+    color:#1d0a1f;
+}
+.school{
+    list-style: circle;
+    display: block;
+}
+.avatar{
+    width: 300px;
+    border-radius: 150px;
+}
+.social a i:hover{
+    transform: translate(0,-10px);
+}
